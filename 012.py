@@ -23,10 +23,6 @@ with st.form('Order đồ uống'):
                     'Loại thạch': option_jelly,
                     'Số lượng': nums
                 }
-
-        submitted = st.form_submit_button("Xác nhận")
-
-        if submitted:
                 st.write('✅ Bạn đã chọn:')
                 for x, y in bill.items():
                     st.write(x, y)
